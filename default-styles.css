@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+* a:link {
+	color: #4717F6;
+	text-decoration: none;
+}
+
+* a:visited {
+	color: #4717F6;
+	text-decoration: none;
+}
+
+* a:active {
+	color: #A239CA;
+	text-decoration: none;
+}
+
+* a:hover {
+	color: #A239CA;
+	text-decoration: none;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	color: #0E0B16;
+	min-height: 100%;
+	position: relative;
+	padding-bottom: 300px;
+}
+
+#wrapper {
+	
+}
+
+/* Website header */
+
+#header {
+	background-color: rgba(231,223,221,0.85);
+	height: auto;
+	position: fixed;
+	display: block;
+	width: 100%;
+	z-index: 1;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+
+#title {
+	padding-left: 50px;
+}
+
+#menu {
+	padding-left: 50px;
+}
+
+#menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu ul li{
+	display: inline-block;
+	padding-right: 20px;
+	margin: 0;
+}
+
+#menu ul li h1{
+	margin: 0;
+}
+
+#content {
+}
+
+#footer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 300px;
+	background-color: #E7DFDD;
+	padding-top: 100px;
+	text-align: center;
+	display: block;
+}
+
+#homeimage {
+	height: 100vh;
+	background-image: url(http://billychandler.org/images/backgrounds/beach.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+#postimage {
+	height: 50vh;
+	background-image: url(http://billychandler.org/images/backgrounds/new-york.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	background-position: center;
+}
+
+#posts {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.jumbotron {
+	background-color: #E7DFDD;
+}
+
+@media (max-width: 991px) {
+	
+	#side {
+		padding-top: 100px;
+	}
+}
+
+@media (max-width: 768px) {
+
+	#title {
+		padding-left: 0px;
+		text-align: center;
+		display: block;
+		padding-top: auto;
+	}
+	
+	#menu {
+		padding-right: auto;
+		float: none;
+		padding-top: auto;
+	}
+	
+	#menu ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	
+	#menu ul li{
+		display: block;
+		padding-left: auto;
+	}
+	
+	#menu ul li h1{
+		margin: 0;
+	}
+	
+	#side {
+		padding-top: 100px;
+	}
+	
+	#homeimage {
+		background-attachment: scroll;
+	}
+}
